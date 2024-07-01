@@ -13,7 +13,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font-family);
-  color: black;
+  color: var(--fourth-color);
   font-weight: bold;
 }
 
@@ -90,6 +90,17 @@ p {
   border-radius: 4px;
   padding: 15px 30px;
   line-height: 28px;
+}
+
+.email-link {
+  color: var(--branding-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.fa-brands {
+  font-size: 48px;
+  color: var(--fourth-color);
 }
 
 @media (max-width: 900px) {
