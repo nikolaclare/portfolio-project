@@ -32,6 +32,10 @@ p {
   line-height: 30px;
 }
 
+img {
+  border-radius: 10px;
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -61,6 +65,7 @@ p {
   border-radius: 4px;
   padding: 15px 30px;
   line-height: 28px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 :hover.btn-branding {
@@ -80,6 +85,7 @@ p {
   font-size: 18px;
   line-height: 28px;
   padding: 15px 30px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 :hover.btn-branding-outline {
@@ -90,6 +96,16 @@ p {
   border-radius: 4px;
   padding: 15px 30px;
   line-height: 28px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
 }
 
 .email-link {
@@ -121,5 +137,9 @@ p {
   .project-description {
     padding-bottom: 60px;
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding-bottom: 60px;
   }
 }
