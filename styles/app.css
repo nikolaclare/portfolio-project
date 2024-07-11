@@ -157,4 +157,10 @@ img {
     text-align: center;
     padding-bottom: 60px;
   }
+  .headshot {
+    margin: 0;
+  }
+  .skills-used li {
+    list-style-type: none;
+  }
 }
