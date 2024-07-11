@@ -30,6 +30,10 @@ h2 {
   font-size: 64px;
 }
 
+h3 {
+  font-size: 48px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -38,6 +42,28 @@ p {
 
 img {
   border-radius: 10px;
+}
+
+footer .email-link {
+  color: var(--fourth-color);
+  font-size: 28px;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .fa-brands {
+  font-size: 48px;
+  color: var(--branding-color);
+  margin: 0 20px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .fa-brands:hover {
+  color: var(--secondary-color);
 }
 
 .active {
@@ -78,6 +104,7 @@ img {
   padding: 15px 30px;
   line-height: 28px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  transition: all 100ms ease-in-out;
 }
 
 :hover.btn-branding {
@@ -98,6 +125,7 @@ img {
   line-height: 28px;
   padding: 15px 30px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  transition: all 100ms ease-in-out;
 }
 
 :hover.btn-branding-outline {
@@ -135,15 +163,14 @@ img {
   font-size: 14px;
 }
 
-.email-link {
-  color: var(--branding-color);
-  font-size: 28px;
-  text-decoration: none;
+.contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
 }
 
-.fa-brands {
-  font-size: 48px;
-  color: var(--fourth-color);
+.contact-box p {
+  margin: 0;
 }
 
 @media (max-width: 900px) {
