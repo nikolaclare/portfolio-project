@@ -70,6 +70,17 @@ footer .fa-brands:hover {
   color:var(--fourth-color) !important;
 }
 
+.contact-link {
+  color: var(--branding-color);
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+.contact-link:hover {
+  color: var(--fourth-color);
+}
+
 .fa-house {
   color: var(--fourth-color);
 }
@@ -140,6 +151,10 @@ footer .fa-brands:hover {
 
 .content-container {
   margin-top: 100px;
+}
+
+.content {
+  margin-left: 20px;
 }
 
 .content h1 {
