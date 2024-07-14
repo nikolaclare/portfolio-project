@@ -192,6 +192,10 @@ footer .fa-brands:hover {
   margin: 0;
 }
 
+.repository-link {
+  color: var(--third-color);
+}
+
 @media (max-width: 900px) {
   h1, .content h1 {
     font-size: 48px;
@@ -209,7 +213,6 @@ footer .fa-brands:hover {
     font-weight: normal;
   }
   .project-description {
-    padding-bottom: 60px;
     text-align: center;
   }
   .content {
@@ -218,5 +221,11 @@ footer .fa-brands:hover {
   }
   .skills-used li {
     list-style-type: none;
+  }
+    .homepage-footer {
+    margin-top: 60px;
+  }
+  .portfolio-footer {
+    margin-top: -60px;
   }
 }
