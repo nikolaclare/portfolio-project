@@ -218,14 +218,24 @@ footer .fa-brands:hover {
   .content {
     text-align: center;
     padding-bottom: 60px;
+    margin-left: 0px;
+  }
+  .skills-used ul {
+    padding: 0;
   }
   .skills-used li {
     list-style-type: none;
   }
-    .homepage-footer {
+  .homepage-footer {
     margin-top: 60px;
   }
   .portfolio-footer {
     margin-top: -60px;
+  }
+  .container {
+    padding: 0;
+  }
+  footer a.email-link {
+    font-size: 24px;
   }
 }
